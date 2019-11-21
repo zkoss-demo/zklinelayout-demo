@@ -1,0 +1,38 @@
+<zk>
+	<style>
+		.z-button {
+			margin-left: 20px;
+		}
+	</style>
+	<button label="scale 1:3" onClick="linelayout.setFirstScale(1);linelayout.setLastScale(3);" />
+	<button label="scale 5:2" onClick="linelayout.setFirstScale(5);linelayout.setLastScale(2);" />
+	<button label="scale 1:1" onClick="linelayout.setFirstScale(1);linelayout.setLastScale(1);" />
+	<button label="horizontal" onClick='linelayout.setOrient("horizontal");' />
+	<button label="vertical" onClick='linelayout.setOrient("vertical");' />
+	<linelayout id="linelayout" lastScale="3">
+		<lineitem>
+			<div>
+				<label>8:00 am</label>
+				<button>good morning</button>
+			</div>
+		</lineitem>
+		<lineitem>
+			<div>
+				<label>12:00 pm</label>
+				<button>lunch time</button>
+			</div>
+		</lineitem>
+		<lineitem>
+			<div>
+				<label>6:00 pm</label>
+				<button>dinner time</button>
+			</div>
+		</lineitem>
+		<lineitem>
+			<div>
+				<label>10:00 pm</label>
+				<button>good night</button>
+			</div>
+		</lineitem>
+	</linelayout>
+</zk>

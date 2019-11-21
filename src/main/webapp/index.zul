@@ -1,3 +1,7 @@
 <zk>
-	Hello world
+	<vlayout>
+		<a href="http://localhost:8080/zklinelayout-demo/linelayout-demo-1.zul" label="linelayout-demo-1"/>
+		<a href="http://localhost:8080/zklinelayout-demo/linelayout-demo-2.zul" label="linelayout-demo-2"/>
+		<a href="http://localhost:8080/zklinelayout-demo/linelayout-demo-3.zul" label="linelayout-demo-3"/>
+	</vlayout>
 </zk>
