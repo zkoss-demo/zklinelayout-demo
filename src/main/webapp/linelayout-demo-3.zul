@@ -8,7 +8,7 @@
 		<label>12 pm</label>
 		<button>lunch time</button>
 	</lineitem>
-	<lineitem>
+	<lineitem frontSpace="100px">
 		<label>6 pm</label>
 		<button>dinner time</button>
 	</lineitem>
